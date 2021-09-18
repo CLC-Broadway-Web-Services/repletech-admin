@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "feature_data",
+  "info": {
+    "name": "FeatureData"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "img": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "layout": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "string"
+    }
+  }
+}

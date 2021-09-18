@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "content_data",
+  "info": {
+    "name": "ContentData"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "img": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}
